@@ -4,6 +4,50 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
 }
+/*Navigation bar styles.*/
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.left-side {
+  display: flex;
+  margin-top: 25px;
+}
+.right-side {
+  font-size: 150%;
+}
+.brand a {
+  text-decoration: none;
+  color: black;
+}
+.brand-slogan p {
+  font-size: small;
+  padding: 0%;
+}
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.nav-link-wrapper:hover {
+  border-bottom: 2px solid black;
+}
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
 /*About styles*/
 
 .two-column-wrapper {
