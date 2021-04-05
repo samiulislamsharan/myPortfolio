@@ -1,0 +1,169 @@
+/*Main styles.*/
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*Navigation bar styles.*/
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.left-side {
+  display: flex;
+  margin-top: 25px;
+}
+.right-side {
+  font-size: 150%;
+}
+.brand a {
+  text-decoration: none;
+  color: black;
+}
+.brand-slogan p {
+  font-size: small;
+  padding: 0%;
+}
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.nav-link-wrapper:hover {
+  border-bottom: 2px solid black;
+}
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+/*Portfolio styles*/
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-item-wrapper {
+  position: relative;
+}
+.portfolio-image-background {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.image-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+  font-weight: 600;
+}
+.image-text-wrapper:hover .subtitle {
+  font-weight: 600;
+  color: white;
+}
+.hover-dark {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+/*About styles*/
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.profile-image-wrapper img {
+  width: 100%;
+  height: 180%;
+}
+.profile-description-wrapper {
+  padding: 40px;
+  font-size: 150%;
+}
+.profile-description-wrapper h2 {
+  color: lightseagreen;
+}
+.profile-description-wrapper p {
+  text-align: justify;
+}
+
+/*Style all font awesome icons*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Hover effect */
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  color: white;
+}
+.fa-linkedin {
+  background: #0e76a8;
+  color: white;
+}
+.fa-vimeo {
+  background: #86c9ef;
+  color: white;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+.fa-behance {
+  background: #053eff;
+  color: white;
+}
