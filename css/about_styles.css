@@ -1,0 +1,74 @@
+/*Main styles.*/
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+/*About styles*/
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.profile-image-wrapper img {
+  width: 100%;
+  height: 180%;
+}
+.profile-description-wrapper {
+  padding: 40px;
+  font-size: 150%;
+}
+.profile-description-wrapper h2 {
+  color: lightseagreen;
+}
+.profile-description-wrapper p {
+  text-align: justify;
+}
+
+/*Style all font awesome icons*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Hover effect */
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  color: white;
+}
+.fa-linkedin {
+  background: #0e76a8;
+  color: white;
+}
+.fa-vimeo {
+  background: #86c9ef;
+  color: white;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+.fa-behance {
+  background: #053eff;
+  color: white;
+}
